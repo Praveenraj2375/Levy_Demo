@@ -7,15 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6207D5D227FC60A400E079D5 /* ExpesencsDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6207D5D127FC60A400E079D5 /* ExpesencsDetailCell.swift */; };
+		6208946727F9C39C00E77DED /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6208946627F9C39C00E77DED /* Launch Screen.storyboard */; };
+		620A230027E8839D005ECC1B /* FriendsWiseExpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620A22FF27E8839D005ECC1B /* FriendsWiseExpViewController.swift */; };
+		620FB4A92816FC2700C2D0D8 /* NetwrokMoniter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620FB4A82816FC2700C2D0D8 /* NetwrokMoniter.swift */; };
+		6218611E27FD9D6900F6241C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218611D27FD9D6900F6241C /* HeaderView.swift */; };
+		6218AEC527D66334005D65C9 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218AEC427D66334005D65C9 /* Expense.swift */; };
+		6218AEC727D664C1005D65C9 /* SplitShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218AEC627D664C1005D65C9 /* SplitShare.swift */; };
+		6218AEC927D6653A005D65C9 /* FriendWiseExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218AEC827D6653A005D65C9 /* FriendWiseExpense.swift */; };
+		6218AECB27D66635005D65C9 /* GroupDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6218AECA27D66635005D65C9 /* GroupDetails.swift */; };
+		6223A054280AD6B4003BE949 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6223A053280AD6B4003BE949 /* ImagePicker.swift */; };
+		6223A056280AD6F6003BE949 /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6223A055280AD6F6003BE949 /* ImagePickerCollectionViewCell.swift */; };
+		622512C327F574B400827B69 /* UtilityFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622512C227F574B400827B69 /* UtilityFile.swift */; };
+		6225222827F4244C0060DD14 /* GroupDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6225222727F4244C0060DD14 /* GroupDetailedViewController.swift */; };
+		6228013A281D67810039413E /* DefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62280139281D67810039413E /* DefaultCell.swift */; };
+		622BEAF92801A0AA007A331A /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622BEAF82801A0AA007A331A /* SortViewController.swift */; };
+		622EE67F27D0BEDC00D86F55 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EE67E27D0BEDC00D86F55 /* DBHelper.swift */; };
+		622F9D282800911C00BC6F84 /* ViewForEmptyTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622F9D272800911C00BC6F84 /* ViewForEmptyTableview.swift */; };
+		6231DF1527DCCFD200F6D120 /* TripDetailTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6231DF1427DCCFD200F6D120 /* TripDetailTabelViewCell.swift */; };
+		62349297280EDDB100305187 /* CustomContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62349296280EDDB100305187 /* CustomContactPicker.swift */; };
+		62349299280EDDF800305187 /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62349298280EDDF800305187 /* NewContactViewController.swift */; };
+		6234929B280EDF8200305187 /* ContactStoreListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6234929A280EDF8200305187 /* ContactStoreListCell.swift */; };
+		6236713F27D713CB00B9C7C8 /* FriendsInTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236713E27D713CB00B9C7C8 /* FriendsInTrip.swift */; };
+		6236714127D7160600B9C7C8 /* FriendsInGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236714027D7160600B9C7C8 /* FriendsInGroup.swift */; };
+		6236714327D724B500B9C7C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236714227D724B500B9C7C8 /* TabBarController.swift */; };
+		6236714527D7570800B9C7C8 /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236714427D7570800B9C7C8 /* UseCase.swift */; };
+		6236714827D7666600B9C7C8 /* TripListViewControllerOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236714727D7666600B9C7C8 /* TripListViewControllerOld.swift */; };
+		6236714A27D77DDA00B9C7C8 /* NewDetailInsertionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236714927D77DDA00B9C7C8 /* NewDetailInsertionVC.swift */; };
+		623AEF8B27DB82F100BDC025 /* TripDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623AEF8A27DB82F100BDC025 /* TripDetailedViewController.swift */; };
+		623C18F4283F840700E5A594 /* TripListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623C18F3283F840700E5A594 /* TripListPresenter.swift */; };
+		623C18F6283F907E00E5A594 /* TripListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623C18F5283F907E00E5A594 /* TripListVC.swift */; };
+		62433AC927FFF94300A9AC6F /* ExpenseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62433AC827FFF94300A9AC6F /* ExpenseListCell.swift */; };
+		62468E43281A4CB70032AB0F /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62468E42281A4CB70032AB0F /* ContactDetail.swift */; };
+		62468E45281A8D9B0032AB0F /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62468E44281A8D9B0032AB0F /* FriendsListTableViewCell.swift */; };
+		624723A827D60FB9004BB915 /* TripDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624723A727D60FB9004BB915 /* TripDetails.swift */; };
+		6247FACB280D5AEC0042FD3E /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6247FACA280D5AEC0042FD3E /* NetworkHelper.swift */; };
+		6249261928108AE20011301E /* CollectionViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249261828108AE20011301E /* CollectionViewFooter.swift */; };
+		624BD07A28189CE3004E7EB2 /* LevyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624BD07928189CE3004E7EB2 /* LevyError.swift */; };
+		624CDBE12811B85E0076CE45 /* NewTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624CDBE02811B85E0076CE45 /* NewTripViewController.swift */; };
+		62515DDA27DFAAA2004ADEDB /* ShowFriendsListInTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62515DD927DFAAA2004ADEDB /* ShowFriendsListInTripViewController.swift */; };
+		625213AC27EADB2B003051D2 /* ExpenseDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625213AB27EADB2B003051D2 /* ExpenseDetailedViewController.swift */; };
+		625DBDB727E217B100AA2E03 /* FriendsListVCForSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625DBDB627E217B100AA2E03 /* FriendsListVCForSplit.swift */; };
+		62609A892844980C0055DCE0 /* NewTripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62609A882844980C0055DCE0 /* NewTripVC.swift */; };
+		62609A8B2844A4AB0055DCE0 /* SortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62609A8A2844A4AB0055DCE0 /* SortVC.swift */; };
+		626EA1CB280AF1E3002B3815 /* GroupListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626EA1CA280AF1E3002B3815 /* GroupListTableViewCell.swift */; };
 		62766BFA27CF778600F40BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62766BF927CF778600F40BAC /* AppDelegate.swift */; };
 		62766BFC27CF778600F40BAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62766BFB27CF778600F40BAC /* SceneDelegate.swift */; };
-		62766BFE27CF778600F40BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62766BFD27CF778600F40BAC /* ViewController.swift */; };
-		62766C0127CF778600F40BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62766BFF27CF778600F40BAC /* Main.storyboard */; };
 		62766C0327CF778900F40BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62766C0227CF778900F40BAC /* Assets.xcassets */; };
-		62766C0627CF778900F40BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62766C0427CF778900F40BAC /* LaunchScreen.storyboard */; };
 		62766C1127CF778900F40BAC /* LevyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62766C1027CF778900F40BAC /* LevyTests.swift */; };
 		62766C1B27CF778A00F40BAC /* LevyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62766C1A27CF778A00F40BAC /* LevyUITests.swift */; };
 		62766C1D27CF778A00F40BAC /* LevyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62766C1C27CF778A00F40BAC /* LevyUITestsLaunchTests.swift */; };
+		6293B94B28391EE50078A7F2 /* SelfSizingTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6293B94A28391EE50078A7F2 /* SelfSizingTableview.swift */; };
+		6298042428462692005A1FA5 /* TripDetailVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298042328462692005A1FA5 /* TripDetailVCPresenter.swift */; };
+		629BC7F02845308200DEBCB4 /* SortVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BC7EF2845308200DEBCB4 /* SortVCPresenter.swift */; };
+		629BC7F228454BAD00DEBCB4 /* TripDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BC7F128454BAD00DEBCB4 /* TripDetailVC.swift */; };
+		62AA7F7F27E989E900381025 /* FriendWiseExpDetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AA7F7E27E989E900381025 /* FriendWiseExpDetailedVC.swift */; };
+		62C253C027E0AB8A003B9717 /* InsertExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C253BF27E0AB8A003B9717 /* InsertExpenseViewController.swift */; };
+		62DEF57327F2E8E500D42DD1 /* ExtensionForExistingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DEF57227F2E8E500D42DD1 /* ExtensionForExistingClass.swift */; };
+		62DEF57527F34F4000D42DD1 /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DEF57427F34F3F00D42DD1 /* GroupListViewController.swift */; };
+		62DEF57827F3544E00D42DD1 /* NewGroupInsertionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DEF57727F3544E00D42DD1 /* NewGroupInsertionViewController.swift */; };
+		62E43C2927D8A52E00EB92AA /* TripListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E43C2827D8A52E00EB92AA /* TripListCell.swift */; };
+		62FB1ECB2805939300244D02 /* LevyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB1ECA2805939300244D02 /* LevyDB.swift */; };
+		62FF25D027FB08550075391F /* SelectedFriendsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF25CF27FB08550075391F /* SelectedFriendsListCell.swift */; };
+		62FF25D227FB2BB60075391F /* SelectedFriendsListFromContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF25D127FB2BB60075391F /* SelectedFriendsListFromContact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +90,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6207D5D127FC60A400E079D5 /* ExpesencsDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpesencsDetailCell.swift; sourceTree = "<group>"; };
+		6208946627F9C39C00E77DED /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		620A22FF27E8839D005ECC1B /* FriendsWiseExpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsWiseExpViewController.swift; sourceTree = "<group>"; };
+		620FB4A82816FC2700C2D0D8 /* NetwrokMoniter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwrokMoniter.swift; sourceTree = "<group>"; };
+		6218611D27FD9D6900F6241C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		6218AEC427D66334005D65C9 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		6218AEC627D664C1005D65C9 /* SplitShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitShare.swift; sourceTree = "<group>"; };
+		6218AEC827D6653A005D65C9 /* FriendWiseExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendWiseExpense.swift; sourceTree = "<group>"; };
+		6218AECA27D66635005D65C9 /* GroupDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetails.swift; sourceTree = "<group>"; };
+		6223A053280AD6B4003BE949 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6223A055280AD6F6003BE949 /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		622512C227F574B400827B69 /* UtilityFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFile.swift; sourceTree = "<group>"; };
+		6225222727F4244C0060DD14 /* GroupDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailedViewController.swift; sourceTree = "<group>"; };
+		62280139281D67810039413E /* DefaultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCell.swift; sourceTree = "<group>"; };
+		622BEAF82801A0AA007A331A /* SortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
+		622EE67E27D0BEDC00D86F55 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		622F9D272800911C00BC6F84 /* ViewForEmptyTableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewForEmptyTableview.swift; sourceTree = "<group>"; };
+		6231DF1427DCCFD200F6D120 /* TripDetailTabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailTabelViewCell.swift; sourceTree = "<group>"; };
+		62349296280EDDB100305187 /* CustomContactPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContactPicker.swift; sourceTree = "<group>"; };
+		62349298280EDDF800305187 /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		6234929A280EDF8200305187 /* ContactStoreListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStoreListCell.swift; sourceTree = "<group>"; };
+		6236713E27D713CB00B9C7C8 /* FriendsInTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInTrip.swift; sourceTree = "<group>"; };
+		6236714027D7160600B9C7C8 /* FriendsInGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInGroup.swift; sourceTree = "<group>"; };
+		6236714227D724B500B9C7C8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6236714427D7570800B9C7C8 /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		6236714727D7666600B9C7C8 /* TripListViewControllerOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewControllerOld.swift; sourceTree = "<group>"; };
+		6236714927D77DDA00B9C7C8 /* NewDetailInsertionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDetailInsertionVC.swift; sourceTree = "<group>"; };
+		623AEF8A27DB82F100BDC025 /* TripDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailedViewController.swift; sourceTree = "<group>"; };
+		623C18F3283F840700E5A594 /* TripListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListPresenter.swift; sourceTree = "<group>"; };
+		623C18F5283F907E00E5A594 /* TripListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListVC.swift; sourceTree = "<group>"; };
+		62433AC827FFF94300A9AC6F /* ExpenseListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListCell.swift; sourceTree = "<group>"; };
+		62468E42281A4CB70032AB0F /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
+		62468E44281A8D9B0032AB0F /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
+		624723A727D60FB9004BB915 /* TripDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetails.swift; sourceTree = "<group>"; };
+		6247FACA280D5AEC0042FD3E /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		6249261828108AE20011301E /* CollectionViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFooter.swift; sourceTree = "<group>"; };
+		624BD07928189CE3004E7EB2 /* LevyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevyError.swift; sourceTree = "<group>"; };
+		624CDBE02811B85E0076CE45 /* NewTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripViewController.swift; sourceTree = "<group>"; };
+		62515DD927DFAAA2004ADEDB /* ShowFriendsListInTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFriendsListInTripViewController.swift; sourceTree = "<group>"; };
+		625213AB27EADB2B003051D2 /* ExpenseDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailedViewController.swift; sourceTree = "<group>"; };
+		625DBDB627E217B100AA2E03 /* FriendsListVCForSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendsListVCForSplit.swift; path = Levy/Expense/FriendsListVCForSplit.swift; sourceTree = SOURCE_ROOT; };
+		62609A882844980C0055DCE0 /* NewTripVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripVC.swift; sourceTree = "<group>"; };
+		62609A8A2844A4AB0055DCE0 /* SortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortVC.swift; sourceTree = "<group>"; };
+		626EA1CA280AF1E3002B3815 /* GroupListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListTableViewCell.swift; sourceTree = "<group>"; };
 		62766BF627CF778600F40BAC /* Levy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Levy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62766BF927CF778600F40BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62766BFB27CF778600F40BAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		62766BFD27CF778600F40BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		62766C0027CF778600F40BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62766C0227CF778900F40BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		62766C0527CF778900F40BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62766C0727CF778900F40BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62766C0C27CF778900F40BAC /* LevyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62766C1027CF778900F40BAC /* LevyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevyTests.swift; sourceTree = "<group>"; };
 		62766C1627CF778900F40BAC /* LevyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62766C1A27CF778A00F40BAC /* LevyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevyUITests.swift; sourceTree = "<group>"; };
 		62766C1C27CF778A00F40BAC /* LevyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6293B94A28391EE50078A7F2 /* SelfSizingTableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingTableview.swift; sourceTree = "<group>"; };
+		6298042328462692005A1FA5 /* TripDetailVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailVCPresenter.swift; sourceTree = "<group>"; };
+		629BC7EF2845308200DEBCB4 /* SortVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortVCPresenter.swift; sourceTree = "<group>"; };
+		629BC7F128454BAD00DEBCB4 /* TripDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailVC.swift; sourceTree = "<group>"; };
+		62AA7F7E27E989E900381025 /* FriendWiseExpDetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendWiseExpDetailedVC.swift; sourceTree = "<group>"; };
+		62B5BD372812FD7D006EFEBF /* Levy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Levy-Bridging-Header.h"; sourceTree = "<group>"; };
+		62C253BF27E0AB8A003B9717 /* InsertExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertExpenseViewController.swift; sourceTree = "<group>"; };
+		62DEF57227F2E8E500D42DD1 /* ExtensionForExistingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForExistingClass.swift; sourceTree = "<group>"; };
+		62DEF57427F34F3F00D42DD1 /* GroupListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewController.swift; sourceTree = "<group>"; };
+		62DEF57727F3544E00D42DD1 /* NewGroupInsertionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupInsertionViewController.swift; sourceTree = "<group>"; };
+		62E43C2827D8A52E00EB92AA /* TripListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListCell.swift; sourceTree = "<group>"; };
+		62FB1ECA2805939300244D02 /* LevyDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevyDB.swift; sourceTree = "<group>"; };
+		62FF25CF27FB08550075391F /* SelectedFriendsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedFriendsListCell.swift; sourceTree = "<group>"; };
+		62FF25D127FB2BB60075391F /* SelectedFriendsListFromContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedFriendsListFromContact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +185,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		620A22FD27E866A9005ECC1B /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				625213AB27EADB2B003051D2 /* ExpenseDetailedViewController.swift */,
+				62C253BF27E0AB8A003B9717 /* InsertExpenseViewController.swift */,
+				625DBDB627E217B100AA2E03 /* FriendsListVCForSplit.swift */,
+				62468E44281A8D9B0032AB0F /* FriendsListTableViewCell.swift */,
+				6207D5D127FC60A400E079D5 /* ExpesencsDetailCell.swift */,
+			);
+			path = Expense;
+			sourceTree = "<group>";
+		};
+		620A22FE27E866D1005ECC1B /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				6236714427D7570800B9C7C8 /* UseCase.swift */,
+				622EE67E27D0BEDC00D86F55 /* DBHelper.swift */,
+				6247FACA280D5AEC0042FD3E /* NetworkHelper.swift */,
+				62FB1ECA2805939300244D02 /* LevyDB.swift */,
+			);
+			path = BackEnd;
+			sourceTree = "<group>";
+		};
+		620FB4A62816585C00C2D0D8 /* Common for all */ = {
+			isa = PBXGroup;
+			children = (
+				6236714227D724B500B9C7C8 /* TabBarController.swift */,
+				62DEF57227F2E8E500D42DD1 /* ExtensionForExistingClass.swift */,
+				622512C227F574B400827B69 /* UtilityFile.swift */,
+				624BD07928189CE3004E7EB2 /* LevyError.swift */,
+				6218611D27FD9D6900F6241C /* HeaderView.swift */,
+				622F9D272800911C00BC6F84 /* ViewForEmptyTableview.swift */,
+				62609A8A2844A4AB0055DCE0 /* SortVC.swift */,
+				629BC7EF2845308200DEBCB4 /* SortVCPresenter.swift */,
+				6293B94A28391EE50078A7F2 /* SelfSizingTableview.swift */,
+				6233E667282BC08C00E7FE67 /* SelectedFriendsFromContact */,
+				6234929C280EE0E100305187 /* CustomContactPicker */,
+			);
+			path = "Common for all";
+			sourceTree = "<group>";
+		};
+		6233E667282BC08C00E7FE67 /* SelectedFriendsFromContact */ = {
+			isa = PBXGroup;
+			children = (
+				62FF25D127FB2BB60075391F /* SelectedFriendsListFromContact.swift */,
+				62FF25CF27FB08550075391F /* SelectedFriendsListCell.swift */,
+			);
+			path = SelectedFriendsFromContact;
+			sourceTree = "<group>";
+		};
+		62342CF2280F22E6009394D5 /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				6223A053280AD6B4003BE949 /* ImagePicker.swift */,
+				6223A055280AD6F6003BE949 /* ImagePickerCollectionViewCell.swift */,
+				620FB4A82816FC2700C2D0D8 /* NetwrokMoniter.swift */,
+				6249261828108AE20011301E /* CollectionViewFooter.swift */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
+		6234929C280EE0E100305187 /* CustomContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				62349296280EDDB100305187 /* CustomContactPicker.swift */,
+				6234929A280EDF8200305187 /* ContactStoreListCell.swift */,
+				62349298280EDDF800305187 /* NewContactViewController.swift */,
+			);
+			path = CustomContactPicker;
+			sourceTree = "<group>";
+		};
+		623AEF8C27DB8E3700BDC025 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				62609A87284497C30055DCE0 /* Old */,
+				623C18F5283F907E00E5A594 /* TripListVC.swift */,
+				623C18F3283F840700E5A594 /* TripListPresenter.swift */,
+				629BC7F128454BAD00DEBCB4 /* TripDetailVC.swift */,
+				6298042328462692005A1FA5 /* TripDetailVCPresenter.swift */,
+				62609A882844980C0055DCE0 /* NewTripVC.swift */,
+				62515DD927DFAAA2004ADEDB /* ShowFriendsListInTripViewController.swift */,
+				62E43C2827D8A52E00EB92AA /* TripListCell.swift */,
+				6231DF1427DCCFD200F6D120 /* TripDetailTabelViewCell.swift */,
+				62433AC827FFF94300A9AC6F /* ExpenseListCell.swift */,
+				6236714927D77DDA00B9C7C8 /* NewDetailInsertionVC.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		623AEF8D27DB977100BDC025 /* Object Types */ = {
+			isa = PBXGroup;
+			children = (
+				6218AEC427D66334005D65C9 /* Expense.swift */,
+				6218AEC627D664C1005D65C9 /* SplitShare.swift */,
+				6218AEC827D6653A005D65C9 /* FriendWiseExpense.swift */,
+				6218AECA27D66635005D65C9 /* GroupDetails.swift */,
+				6236713E27D713CB00B9C7C8 /* FriendsInTrip.swift */,
+				6236714027D7160600B9C7C8 /* FriendsInGroup.swift */,
+				624723A727D60FB9004BB915 /* TripDetails.swift */,
+				62468E42281A4CB70032AB0F /* ContactDetail.swift */,
+			);
+			path = "Object Types";
+			sourceTree = "<group>";
+		};
+		62609A87284497C30055DCE0 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				623AEF8A27DB82F100BDC025 /* TripDetailedViewController.swift */,
+				622BEAF82801A0AA007A331A /* SortViewController.swift */,
+				624CDBE02811B85E0076CE45 /* NewTripViewController.swift */,
+				6236714727D7666600B9C7C8 /* TripListViewControllerOld.swift */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
 		62766BED27CF778600F40BAC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +307,7 @@
 				62766C0F27CF778900F40BAC /* LevyTests */,
 				62766C1927CF778900F40BAC /* LevyUITests */,
 				62766BF727CF778600F40BAC /* Products */,
+				62B5BD372812FD7D006EFEBF /* Levy-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +326,16 @@
 			children = (
 				62766BF927CF778600F40BAC /* AppDelegate.swift */,
 				62766BFB27CF778600F40BAC /* SceneDelegate.swift */,
-				62766BFD27CF778600F40BAC /* ViewController.swift */,
-				62766BFF27CF778600F40BAC /* Main.storyboard */,
-				62766C0227CF778900F40BAC /* Assets.xcassets */,
-				62766C0427CF778900F40BAC /* LaunchScreen.storyboard */,
+				620FB4A62816585C00C2D0D8 /* Common for all */,
+				623AEF8C27DB8E3700BDC025 /* Trip */,
+				620A22FD27E866A9005ECC1B /* Expense */,
+				62AA7F7D27E989C200381025 /* FriendWiseExpnese */,
+				62DEF57627F34F4700D42DD1 /* Group */,
+				620A22FE27E866D1005ECC1B /* BackEnd */,
+				623AEF8D27DB977100BDC025 /* Object Types */,
 				62766C0727CF778900F40BAC /* Info.plist */,
+				6208946627F9C39C00E77DED /* Launch Screen.storyboard */,
+				62766C0227CF778900F40BAC /* Assets.xcassets */,
 			);
 			path = Levy;
 			sourceTree = "<group>";
@@ -125,6 +355,28 @@
 				62766C1C27CF778A00F40BAC /* LevyUITestsLaunchTests.swift */,
 			);
 			path = LevyUITests;
+			sourceTree = "<group>";
+		};
+		62AA7F7D27E989C200381025 /* FriendWiseExpnese */ = {
+			isa = PBXGroup;
+			children = (
+				620A22FF27E8839D005ECC1B /* FriendsWiseExpViewController.swift */,
+				62AA7F7E27E989E900381025 /* FriendWiseExpDetailedVC.swift */,
+			);
+			path = FriendWiseExpnese;
+			sourceTree = "<group>";
+		};
+		62DEF57627F34F4700D42DD1 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				62342CF2280F22E6009394D5 /* Image Picker */,
+				62DEF57427F34F3F00D42DD1 /* GroupListViewController.swift */,
+				6225222727F4244C0060DD14 /* GroupDetailedViewController.swift */,
+				62DEF57727F3544E00D42DD1 /* NewGroupInsertionViewController.swift */,
+				62280139281D67810039413E /* DefaultCell.swift */,
+				626EA1CA280AF1E3002B3815 /* GroupListTableViewCell.swift */,
+			);
+			path = Group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +447,7 @@
 				TargetAttributes = {
 					62766BF527CF778600F40BAC = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1330;
 					};
 					62766C0B27CF778900F40BAC = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -231,9 +484,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62766C0627CF778900F40BAC /* LaunchScreen.storyboard in Resources */,
+				6208946727F9C39C00E77DED /* Launch Screen.storyboard in Resources */,
 				62766C0327CF778900F40BAC /* Assets.xcassets in Resources */,
-				62766C0127CF778600F40BAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +510,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62766BFE27CF778600F40BAC /* ViewController.swift in Sources */,
+				6207D5D227FC60A400E079D5 /* ExpesencsDetailCell.swift in Sources */,
+				62349297280EDDB100305187 /* CustomContactPicker.swift in Sources */,
+				622512C327F574B400827B69 /* UtilityFile.swift in Sources */,
+				62DEF57527F34F4000D42DD1 /* GroupListViewController.swift in Sources */,
+				624CDBE12811B85E0076CE45 /* NewTripViewController.swift in Sources */,
+				6218AEC527D66334005D65C9 /* Expense.swift in Sources */,
+				625213AC27EADB2B003051D2 /* ExpenseDetailedViewController.swift in Sources */,
+				625DBDB727E217B100AA2E03 /* FriendsListVCForSplit.swift in Sources */,
+				62C253C027E0AB8A003B9717 /* InsertExpenseViewController.swift in Sources */,
+				6298042428462692005A1FA5 /* TripDetailVCPresenter.swift in Sources */,
+				6218AEC927D6653A005D65C9 /* FriendWiseExpense.swift in Sources */,
+				6218AECB27D66635005D65C9 /* GroupDetails.swift in Sources */,
+				62DEF57827F3544E00D42DD1 /* NewGroupInsertionViewController.swift in Sources */,
+				6234929B280EDF8200305187 /* ContactStoreListCell.swift in Sources */,
+				623C18F4283F840700E5A594 /* TripListPresenter.swift in Sources */,
+				62433AC927FFF94300A9AC6F /* ExpenseListCell.swift in Sources */,
+				624723A827D60FB9004BB915 /* TripDetails.swift in Sources */,
+				6225222827F4244C0060DD14 /* GroupDetailedViewController.swift in Sources */,
+				6236713F27D713CB00B9C7C8 /* FriendsInTrip.swift in Sources */,
+				622F9D282800911C00BC6F84 /* ViewForEmptyTableview.swift in Sources */,
+				6249261928108AE20011301E /* CollectionViewFooter.swift in Sources */,
+				620FB4A92816FC2700C2D0D8 /* NetwrokMoniter.swift in Sources */,
+				622BEAF92801A0AA007A331A /* SortViewController.swift in Sources */,
+				6236714527D7570800B9C7C8 /* UseCase.swift in Sources */,
+				62FF25D227FB2BB60075391F /* SelectedFriendsListFromContact.swift in Sources */,
+				624BD07A28189CE3004E7EB2 /* LevyError.swift in Sources */,
+				62468E43281A4CB70032AB0F /* ContactDetail.swift in Sources */,
+				6247FACB280D5AEC0042FD3E /* NetworkHelper.swift in Sources */,
+				62E43C2927D8A52E00EB92AA /* TripListCell.swift in Sources */,
+				62609A892844980C0055DCE0 /* NewTripVC.swift in Sources */,
+				6236714A27D77DDA00B9C7C8 /* NewDetailInsertionVC.swift in Sources */,
+				62609A8B2844A4AB0055DCE0 /* SortVC.swift in Sources */,
 				62766BFA27CF778600F40BAC /* AppDelegate.swift in Sources */,
+				62FF25D027FB08550075391F /* SelectedFriendsListCell.swift in Sources */,
+				629BC7F02845308200DEBCB4 /* SortVCPresenter.swift in Sources */,
+				62DEF57327F2E8E500D42DD1 /* ExtensionForExistingClass.swift in Sources */,
+				6236714127D7160600B9C7C8 /* FriendsInGroup.swift in Sources */,
+				6236714827D7666600B9C7C8 /* TripListViewControllerOld.swift in Sources */,
+				62468E45281A8D9B0032AB0F /* FriendsListTableViewCell.swift in Sources */,
+				62349299280EDDF800305187 /* NewContactViewController.swift in Sources */,
+				6218611E27FD9D6900F6241C /* HeaderView.swift in Sources */,
+				620A230027E8839D005ECC1B /* FriendsWiseExpViewController.swift in Sources */,
+				6293B94B28391EE50078A7F2 /* SelfSizingTableview.swift in Sources */,
+				629BC7F228454BAD00DEBCB4 /* TripDetailVC.swift in Sources */,
 				62766BFC27CF778600F40BAC /* SceneDelegate.swift in Sources */,
+				6223A056280AD6F6003BE949 /* ImagePickerCollectionViewCell.swift in Sources */,
+				62AA7F7F27E989E900381025 /* FriendWiseExpDetailedVC.swift in Sources */,
+				623C18F6283F907E00E5A594 /* TripListVC.swift in Sources */,
+				6236714327D724B500B9C7C8 /* TabBarController.swift in Sources */,
+				626EA1CB280AF1E3002B3815 /* GroupListTableViewCell.swift in Sources */,
+				622EE67F27D0BEDC00D86F55 /* DBHelper.swift in Sources */,
+				6218AEC727D664C1005D65C9 /* SplitShare.swift in Sources */,
+				62515DDA27DFAAA2004ADEDB /* ShowFriendsListInTripViewController.swift in Sources */,
+				6231DF1527DCCFD200F6D120 /* TripDetailTabelViewCell.swift in Sources */,
+				623AEF8B27DB82F100BDC025 /* TripDetailedViewController.swift in Sources */,
+				6223A054280AD6B4003BE949 /* ImagePicker.swift in Sources */,
+				6228013A281D67810039413E /* DefaultCell.swift in Sources */,
+				62FB1ECB2805939300244D02 /* LevyDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +602,6 @@
 			targetProxy = 62766C1727CF778900F40BAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		62766BFF27CF778600F40BAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62766C0027CF778600F40BAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		62766C0427CF778900F40BAC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62766C0527CF778900F40BAC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		62766C1E27CF778A00F40BAC /* Debug */ = {
@@ -437,24 +725,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6RZ9M688H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Levy/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Use contact information to add/show contact details in Trip/Group";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Levy";
+				PRODUCT_BUNDLE_IDENTIFIER = "-Levy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Levy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,16 +760,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q6RZ9M688H;
+				DEVELOPMENT_TEAM = U9B5VK5PQ4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Levy/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Use contact information to add/show contact details in Trip/Group";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +781,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Levy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Levy-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
